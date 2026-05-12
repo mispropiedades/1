@@ -9,7 +9,8 @@ L.marker([-33.0019, -71.2657])
                  class="popup-image">
 
             <ul>
-                <li><span class="emoji">🏠</span> 1750 m2</li>
+                <li><span class="emoji">🏠</span> 75 m2</li>
+                 <li><span class="emoji">🟫</span> 140 m2</li>
                 <li><span class="emoji">🛏️</span> x3</li>
                 <li><span class="emoji">🚿</span> x2</li>
                 <li><span class="emoji">🚝</span> a 20 min</li>
