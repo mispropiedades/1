@@ -1,0 +1,9 @@
+
+.popup-image {
+    width: 120%;
+    height: 90px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
