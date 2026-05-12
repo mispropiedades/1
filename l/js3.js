@@ -19,3 +19,4 @@ L.marker([-33.0019, -71.2657])
             </ul>
         </div>
     `);
+marker.on("popupopen",function(){heroImage.src = "f/pic3.jpg";});
