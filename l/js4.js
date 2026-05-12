@@ -13,6 +13,6 @@ L.marker([-32.68410, -71.22076])
                 <li><span class="emoji">🚌</span> a 20 min</li>
             </ul>
         </div>
-            `);
+            `)
 
         .on("popupopen",function(){heroImage.src = "../f/pic3.jpg";});
