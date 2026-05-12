@@ -1,0 +1,20 @@
+
+@media (max-width: 768px) {
+
+    .topbar ul {
+        gap: 12px;
+    }
+
+    .topbar a {
+        font-size: 12px;
+    }
+
+    .hero-section img {
+        height: 180px;
+    }
+
+    #map {
+        height: 450px;
+    }
+}
+
