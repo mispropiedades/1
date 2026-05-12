@@ -18,5 +18,5 @@ L.marker([-33.0019, -71.2657])
                 <li><span class="emoji">🛒</span> a 5 min</li>
             </ul>
         </div>
+        .on("popupopen",function(){heroImage.src = "../f/pic2.jpg";});
     `);
-marker.on("popupopen",function(){heroImage.src = "../f/pic2.jpg";});
