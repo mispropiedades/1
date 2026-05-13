@@ -1,0 +1,14 @@
+.arrow-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.arrow-btn:hover {
+    background: #444;
+}
