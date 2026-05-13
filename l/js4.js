@@ -15,4 +15,12 @@ L.marker([-32.68410, -71.22076])
         </div>
             `)
 
-        .on("popupopen",function(){heroImage.src = "../f/pic3.jpg";});
+       // .on("popupopen",function(){heroImage.src = "../f/pic3.jpg";});
+
+    .on("popupopen", function () {
+
+        currentGallery = galleries.pic3;
+        currentImageIndex = 0;
+
+        updateHeroImage();
+    });
