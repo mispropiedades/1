@@ -19,3 +19,5 @@ const galleries = {
       "../f/pic6.jpg",
     ]
 };
+let currentGallery = [];
+let currentImageIndex = 0;
