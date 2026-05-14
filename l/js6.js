@@ -5,7 +5,7 @@ L.marker([-33.09022, -70.91893])
             <h3>Propiedad 4</h3>
 
             <img src="../f/pic5.jpg"
-                 alt="Propiedad 2"
+                 alt="Propiedad 4"
                  class="popup-image">
 
             <ul>
