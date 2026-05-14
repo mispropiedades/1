@@ -6,6 +6,16 @@ const galleries = {
         "../f/pic10.jpg",
         "../f/pic11.jpg",
         "../f/pic12.jpg",
+
+        "../f/pic13.jpg",
+        "../f/pic14.jpg",
+        "../f/pic15.jpg",
+        "../f/pic16.jpg",
+        
+        "../f/pic17.jpg",
+        "../f/pic18.jpg",
+        "../f/pic19.jpg",
+        "../f/pic20.jpg",
     ],
 
     pic3: [
