@@ -1,8 +1,11 @@
 const map = L.map('map').setView([-32.8000, -71.2367], 10);
 const galleries = {
     pic2: [
-        "../f/pic2.jpg",
-        "../f/pic9.jpg",
+        //"../f/pic2.jpg",
+        //"../f/pic9.jpg",
+        "../f/pic10.jpg",
+        "../f/pic11.jpg",
+        "../f/pic12.jpg",
     ],
 
     pic3: [
