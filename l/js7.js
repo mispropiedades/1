@@ -11,7 +11,7 @@ L.circleMarker(targetCoords, {
 L.marker(targetCoords, {
     icon: L.divIcon({
         className: 'yellow-map-text',
-        html: 'Your Text Here', // Change this to whatever you want written
+        html: '$600.000', // Change this to whatever you want written
         iconSize: [100, 20],   // Sets dimensions for the element bounds
         iconAnchor: [50, 7]    // Centers the text horizontally [X-axis, Y-axis]
     })
