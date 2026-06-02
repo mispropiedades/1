@@ -5,7 +5,7 @@ const highZoomGroup = L.layerGroup().addTo(map);
 L.marker(targetCoords, {
     icon: L.divIcon({
         className: 'yellow-map-text-sub',
-        html: 'Your Text Here2',
+        html: '2100 M2 (30x70)',
         iconSize: [100, 20],
         iconAnchor: [50, 2]
     })
