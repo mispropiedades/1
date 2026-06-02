@@ -14,7 +14,7 @@ L.marker(targetCoords, {
 // 3. Set the minimum zoom for this entire group natively
 // Leaflet will automatically hide/show it based on this rule
 map.on('zoomend', function() {
-    if (map.getZoom() >= 13) {
+    if (map.getZoom() >= 15) {
         if (!map.hasLayer(highZoomGroup)) map.addLayer(highZoomGroup);
     } else {
         if (map.hasLayer(highZoomGroup)) map.removeLayer(highZoomGroup);
