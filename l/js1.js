@@ -32,5 +32,12 @@ const galleries = {
       "../f/pic6.jpg",
     ]
 };
+
+
+
+const targetCoords = [-33.08177615826319, -70.9300088851204];
+
+
+
 let currentGallery = [];
 let currentImageIndex = 0;
