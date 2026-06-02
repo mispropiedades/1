@@ -1,5 +1,5 @@
-// 1. Create a Layer Group for your high-zoom elements
-const highZoomGroup = L.layerGroup().addTo(map);
+// 1. Create the Layer Group WITHOUT adding it to the map initially
+const highZoomGroup = L.layerGroup(); // Removed .addTo(map)
 
 // 2. Add your second text marker directly to this group
 L.marker(targetCoords, {
@@ -11,8 +11,7 @@ L.marker(targetCoords, {
     })
 }).addTo(highZoomGroup);
 
-// 3. Set the minimum zoom for this entire group natively
-// Leaflet will automatically hide/show it based on this rule
+// 3. Leaflet will now correctly handle showing/hiding it based on the zoom
 map.on('zoomend', function() {
     if (map.getZoom() >= 15) {
         if (!map.hasLayer(highZoomGroup)) map.addLayer(highZoomGroup);
