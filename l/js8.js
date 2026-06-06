@@ -1,3 +1,4 @@
+/*
 // 1. Create the Layer Group WITHOUT adding it to the map initially
 const highZoomGroup = L.layerGroup(); // Removed .addTo(map)
 
@@ -19,3 +20,4 @@ map.on('zoomend', function() {
         if (map.hasLayer(highZoomGroup)) map.removeLayer(highZoomGroup);
     }
 });
+*/
