@@ -19,8 +19,7 @@ L.marker(targetCoords, {
     })
 }).addTo(map);
 
-// 1. Create the Layer Group WITHOUT adding it to the map initially
-const highZoomGroup = L.layerGroup(); // Removed .addTo(map)
+
 
 // 2. Add your second text marker directly to this group
 L.marker(targetCoords, {
