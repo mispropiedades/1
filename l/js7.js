@@ -2,7 +2,7 @@
 function addPropertyMarker(coords, price, details) {
 
     // 1. Add the White Circle
-    L.circleMarker(targetCoords, {
+    L.circleMarker(coords, { //targetCoords, {
         radius: 12,          // Size of the circle radius
         fillColor: "#ffffff", // Inside color (White)
         fillOpacity: 1,      // Completely opaque circle
@@ -11,7 +11,7 @@ function addPropertyMarker(coords, price, details) {
     }).addTo(map);
     
     // 2. Add Yellow Text on the exact same spot
-    L.marker(targetCoords, {
+    L.marker(coords, {
         icon: L.divIcon({
             className: 'yellow-map-text',
             html: '$600.000', // Change this to whatever you want written
@@ -23,7 +23,7 @@ function addPropertyMarker(coords, price, details) {
     
     
     // 2. Add your second text marker directly to this group
-    L.marker(targetCoords, {
+    L.marker(coords, {
         icon: L.divIcon({
             className: 'yellow-map-text-sub',
             html: '<br>2100 M2 (30x70)',
@@ -43,8 +43,8 @@ map.on('zoomend', function() {
 });
 
 // Add both properties
-addPropertyMarker(coords1, '$600.000', '2100 M2<br>(30x70)');
-addPropertyMarker(coords2, '$420.000', '150 M2<br>(25x6)'); // change these values
+addPropertyMarker(targetCoords, '$600.000', '2100 M2<br>(30x70)');
+addPropertyMarker(targetCoords2, '$420.000', '150 M2<br>(25x6)'); // change these values
 
 // Zoom handler - same as yours
 map.on('zoomend', function() {
