@@ -45,7 +45,7 @@ map.on('zoomend', function() {
 // Add both properties
 addPropertyMarker(targetCoords, '$600.000', '2100 M2<br>(30x70)');
 addPropertyMarker(targetCoords2, '$420.000', '150 M2<br>(25x6)'); // change these values
-
+addPropertyMarker(targetCoords3, '$550.000', '900 M2<br>(40x22.5)'); // change these values
 // Zoom handler - same as yours
 map.on('zoomend', function() {
     if (map.getZoom() >= 15) {
