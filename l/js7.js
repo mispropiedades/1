@@ -14,7 +14,7 @@ function addPropertyMarker(coords, price, details) {
     L.marker(coords, {
         icon: L.divIcon({
             className: 'yellow-map-text',
-            html: '$600.000', // Change this to whatever you want written
+            html: price, // Change this to whatever you want written
             iconSize: [100, 20],   // Sets dimensions for the element bounds
             iconAnchor: [50, 7]    // Centers the text horizontally [X-axis, Y-axis]
         })
@@ -26,7 +26,7 @@ function addPropertyMarker(coords, price, details) {
     L.marker(coords, {
         icon: L.divIcon({
             className: 'yellow-map-text-sub',
-            html: '<br>2100 M2 (30x70)',
+            html: details,
             iconSize: [100, 20],
             iconAnchor: [50, 2]
         })
