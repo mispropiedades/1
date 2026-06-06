@@ -1,3 +1,4 @@
+/*
 // 1. Add the White Circle
 L.circleMarker(targetCoords, {
     radius: 12,          // Size of the circle radius
@@ -16,3 +17,4 @@ L.marker(targetCoords, {
         iconAnchor: [50, 7]    // Centers the text horizontally [X-axis, Y-axis]
     })
 }).addTo(map);
+*/
