@@ -36,8 +36,9 @@ const galleries = {
 
 
 const targetCoords = [-33.08177615826319, -70.9300088851204];
-
-
+const targetCoords2 = [-33.084670466027134, -70.9293670336881];
+// 1. Create the Layer Group WITHOUT adding it to the map initially
+const highZoomGroup = L.layerGroup(); // Removed .addTo(map)
 
 let currentGallery = [];
 let currentImageIndex = 0;
